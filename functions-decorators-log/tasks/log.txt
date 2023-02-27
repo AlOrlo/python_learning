@@ -1,0 +1,16 @@
+func_add; args: 30=30, 10=10, execution_time: 0.2 sec.
+func_add; kwargs: a=30, b=10, execution_time: 0.21 sec.
+func_add; kwargs: a=30, c=20, execution_time: 0.21 sec.
+func_add; args: 30=30, 20=20, execution_time: 0.21 sec.
+func_add; args: 30=30, 20=20, func_add; args: 30=30, 20=20, func_add; args: 30=30, 20=20, (30, 20)execution_time: 0.21 sec.
+func_add; args: 30=30, 20=20, (30, 20)execution_time: 0.21 sec.
+func_add; args: 30=30, 20=20, execution_time: 0.2 sec.
+func_add; func_add; func_add; args: 30=30, 20=20, execution_time: 0.2 sec.
+func_add; args: 30=30, 20=20, execution_time: 0.2 sec.
+func_add; args: 30=30, 20=20, execution_time: 0.21 sec.
+func_add; func_add; func_add; args: a=30, b=20, execution_time: 0.21 sec.
+func_add; args: a=30, b=20, execution_time: 0.2 sec.
+func_add; args: a=30, b=20,;execution_time: 0.21 sec.
+func_add; args: a=30, b=20; execution_time: 0.21 sec.
+func_add; kwargs: a=30, c=20; execution_time: 0.2 sec.
+func_add; args: a=10, b=5; kwargs: a=30, c=20; execution_time: 0.21 sec.
